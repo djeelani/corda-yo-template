@@ -27,7 +27,7 @@ import com.template.flow.YoFlow
 import com.template.state.State
 
 // This API is accessible from /api/template. The endpoint paths specified below are relative to it.
-@Path("template")
+@Path("yo")
 class YoApi(val services: CordaRPCOps) {
   // Helper extension property to grab snapshot only.
     private val <A> Pair<A, Observable<*>>.justSnapshot: A get() {
